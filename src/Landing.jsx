@@ -12,6 +12,9 @@ class Landing extends Component {
         </div>
         <div>
           <h2>Servers</h2>
+          <ol>
+            <li></li>
+          </ol>
         </div>
         <div>
           <h2>Libraries</h2>
