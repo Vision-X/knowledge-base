@@ -4,6 +4,11 @@ class AddResource extends Component {
   constructor() {
     super();
     this.state = { }
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  onSubmit() {
+
   }
 
   render() {
@@ -17,11 +22,8 @@ class AddResource extends Component {
           <option value="Libraries"></option>
         </select>
 
-
         <label>Add a resource:</label>
-
         <input type="text" name="" />
-
       </form>
     );
   }
