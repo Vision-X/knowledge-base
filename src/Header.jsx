@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>KnowledgeStashAshAshAsh</h1>
+        <h1>KnowledgeStash</h1>
         <nav>
           <ul>
             <li>
