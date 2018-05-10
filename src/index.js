@@ -15,7 +15,6 @@ ReactDOM.render(
       <Header />
         <Route exact path="/" component={ Landing } />
     </div>
-  </Router>
-  <App />,
+  </Router>,
 document.getElementById('root'));
 registerServiceWorker();

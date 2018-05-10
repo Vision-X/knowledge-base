@@ -10,3 +10,8 @@ Header ul {
   display: flex;
   flex-direction: column;
 }
+
+Landing {
+  background-color: black;
+  color: white;
+}
