@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+// use react-tabs for tabular page display
 class Landing extends Component {
   render() {
     return (
@@ -12,9 +12,6 @@ class Landing extends Component {
         </div>
         <div>
           <h2>Servers</h2>
-          <ol>
-            <li></li>
-          </ol>
         </div>
         <div>
           <h2>Libraries</h2>
