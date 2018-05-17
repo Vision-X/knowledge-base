@@ -27,6 +27,9 @@ class Landing extends Component {
               <li>yas</li>
             </ul>
           </div>
+          <div className="add-btn">
+            <a href=""></a>
+          </div>
         </div>
         <div onClick={this._onClick} >
           <div className="content-card-title">
@@ -38,6 +41,9 @@ class Landing extends Component {
               <li>anotherone</li>
               <li>yas</li>
             </ul>
+          </div>
+          <div className="add-btn">
+            <a href=""></a>
           </div>
         </div>
         <div onClick={this._onClick} >
@@ -51,6 +57,9 @@ class Landing extends Component {
               <li>yas</li>
             </ul>
           </div>
+          <div className="add-btn">
+            <a href=""></a>
+          </div>
         </div>
         <div onClick={this._onClick} >
           <div className="content-card-title">
@@ -62,6 +71,9 @@ class Landing extends Component {
               <li>anotherone</li>
               <li>yas</li>
             </ul>
+          </div>
+          <div className="add-btn">
+            <a href=""></a>
           </div>
         </div>
       </section>
