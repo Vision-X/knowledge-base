@@ -1,17 +1,91 @@
+:root {
+  font-size: 1.6rem;
+}
+
 Header {
-  background-color: gray;
-  height: 20vh;
-  width: 100%;
+  /* background-image: url('./old-books.jpg');
+  background-position: center;
+  background-size: cover; */
+  /* background-color: tan; */
+  background-image: linear-gradient(to right top, #5a5a5a, #444444, #2e2e2e, #1b1b1b, #000000);
+  height: 14vh;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+Header h1 {
+  margin: 0;
+  font-variant: small-caps;
+  font-size: 3rem;
+  color: tan;
+  text-shadow: 4px 4px 6px black;
 }
 
 Header ul {
   display: flex;
-  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
 }
 
-Landing {
+Header ul li {
+  margin-right: 2rem;
+}
+
+Header ul li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+Header ul li a:hover {
+  color: tan;
+}
+
+section {
+  background-image: linear-gradient(to right,
+    #5d5d5d, #6f5b6a, #8d545f, #9c533e, #8e630b);
   background-color: black;
   color: white;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 70vh;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 46%;
+  height: 34vh;
+  text-align: center;
+  outline: 1px solid white;
+  margin-bottom: 1rem;
+}
+
+section div h2 {
+  color: tan;
+  -webkit-text-stroke: 2px black;
+
+}
+
+section div .content-card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+section div .content-card-list ul {
+  list-style: none;
+  padding: 0;
 }

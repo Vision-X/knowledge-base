@@ -5,17 +5,23 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>KnowledgeStash</h1>
+        <h1>RE:SOURCEs</h1>
         <nav>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">HOME</NavLink>
             </li>
             <li>
               <NavLink to="/">FE</NavLink>
             </li>
             <li>
               <NavLink to="/">BE</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">SERVER</NavLink>
+            </li>
+            <li>
+              <NavLink to="/">LIBS</NavLink>
             </li>
           </ul>
         </nav>
