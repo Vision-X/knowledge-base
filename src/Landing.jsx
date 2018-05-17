@@ -17,7 +17,9 @@ class Landing extends Component {
     return (
       <section>
         <div onClick={this._onClick} >
-          <h2>Front-End</h2>
+          <div className="content-card-title">
+            <h2>Front-End</h2>
+          </div>
           <div className="content-card-list">
             <ul>
               <li>placeholder</li>
@@ -27,7 +29,9 @@ class Landing extends Component {
           </div>
         </div>
         <div onClick={this._onClick} >
-          <h2>Back-End</h2>
+          <div className="content-card-title">
+            <h2>Back-End</h2>
+          </div>
           <div className="content-card-list">
             <ul>
               <li>placeholder</li>
@@ -37,7 +41,9 @@ class Landing extends Component {
           </div>
         </div>
         <div onClick={this._onClick} >
-          <h2>Servers</h2>
+          <div className="content-card-title">
+            <h2>Servers</h2>
+          </div>
           <div className="content-card-list">
             <ul>
               <li>placeholder</li>
@@ -47,7 +53,9 @@ class Landing extends Component {
           </div>
         </div>
         <div onClick={this._onClick} >
-          <h2>Libraries</h2>
+          <div className="content-card-title">
+            <h2>Libraries</h2>
+          </div>
           <div className="content-card-list">
             <ul>
               <li>placeholder</li>
