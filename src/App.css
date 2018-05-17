@@ -1,5 +1,5 @@
 :root {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 Header h1 {
   margin: 0;
   font-variant: small-caps;
-  font-size: 3rem;
+  font-size: 2.6rem;
   color: #655C63;
   /* text-shadow: 4px 4px 6px black; */
   -webkit-text-stroke: 6px black;
@@ -28,14 +28,14 @@ Header h1 {
 
 Header ul {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
   justify-content: space-between;
   list-style: none;
   margin: 0;
 }
 
 Header ul li {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 Header ul li a {
@@ -67,6 +67,8 @@ section {
 }
 
 section>div {
+  background-image: linear-gradient(to top, #9d978f, #928a7e, #887d6d, #7d705d, #73634d);
+  background-position: center;
   border: 1px solid black;
   border-radius: 0.4rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
