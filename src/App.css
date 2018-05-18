@@ -108,6 +108,10 @@ section div .content-card-list ul {
   padding: 0;
 }
 
+.content-card-list ul li a {
+  text-decoration: none;
+}
+
 .add-btn {
   display: flex;
   justify-content:flex-end;
@@ -142,5 +146,9 @@ section div .content-card-list ul {
 
   section>div {
     width: 23%;
+  }
+
+  .content-card-list ul li a {
+    font-size: 0.8rem;
   }
 }
