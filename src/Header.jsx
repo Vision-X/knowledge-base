@@ -18,7 +18,7 @@ class Header extends Component {
               <NavLink to="/">BE</NavLink>
             </li>
             <li>
-              <NavLink to="/">SERVER</NavLink>
+              <NavLink to="/">SERVERS</NavLink>
             </li>
             <li>
               <NavLink to="/">LIBS</NavLink>
