@@ -110,7 +110,22 @@ section div .content-card-list ul {
 
 .content-card-list ul li a {
   text-decoration: none;
+  text-shadow: 1px 1px 4px blue;
 }
+
+.content-card-list ul li a:visited {
+  color: black;
+  text-shadow: 1px 1px 4px white;
+}
+
+.content-card-list ul li a:hover {
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+/* .content-card-list ul li a:active {
+  color: blue;
+} */
 
 .add-btn {
   display: flex;
