@@ -8,8 +8,12 @@ class Landing extends Component {
   }
 
   _onClick = (event) => {
-      console.log(this, 'dis');
+      console.log(this.props, 'dis');
       console.log(event.target, 'evt tgt');
+  }
+
+  onClick() {
+
   }
 
 
