@@ -50,7 +50,7 @@ class Landing extends Component {
 
   librariesFetch = () => {
     const libsUrl = 'https://re-source-database.herokuapp.com/libraries';
-    const librariesData = response => { this.setState({ librariesData: response }); console.log(this.state.librariesData) }
+    const librariesData = response => this.setState({ librariesData: response })
     return fetch(libsUrl)
           .then(response => response.json())
           .then(librariesData)
@@ -58,7 +58,7 @@ class Landing extends Component {
   }
 
   _onClick = (event) => {
-      console.log(this.props, 'dis');
+      console.log(this, 'dis');
       console.log(event.target, 'evt tgt');
   }
 
