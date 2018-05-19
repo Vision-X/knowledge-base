@@ -12,6 +12,7 @@ class Libraries extends Component {
             {this.props.data.map(resource => {
               return (
                 <li key={resource.id}>
+                  <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                   <a href={resource.link} target="_blank">
                     {resource.title}
                   </a>

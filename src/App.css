@@ -106,11 +106,28 @@ section div .content-card-list {
 section div .content-card-list ul {
   list-style: none;
   padding: 0;
+  margin: 1rem;
+}
+
+.content-card-list ul li {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.2rem 0;
+  /* outline: 2px solid lightsteelblue; */
+}
+
+.content-card-list ul li:hover {
+  outline: 2px solid white;
 }
 
 .content-card-list ul li a {
+  font-family: monospace;
   text-decoration: none;
-  text-shadow: 1px 1px 4px blue;
+  /* outline: 1px solid white; */
+  padding: 10px;
+
+  /* text-shadow: 1px 1px 4px blue; */
 }
 
 .content-card-list ul li a:visited {
@@ -126,6 +143,12 @@ section div .content-card-list ul {
 /* .content-card-list ul li a:active {
   color: blue;
 } */
+
+.content-card-list ul li img {
+  height: 20px;
+  width: 20px;
+  margin-left: 0.5rem;
+}
 
 .add-btn {
   display: flex;
