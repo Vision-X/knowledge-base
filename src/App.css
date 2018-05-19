@@ -123,6 +123,7 @@ section div .content-card-list ul {
 .content-card-list ul li a {
   /* outline: 1px solid white; */
   /* text-shadow: 1px 1px 4px blue; */
+  color: black;
   font-family: monospace;
   text-decoration: none;
   padding: 10px;
@@ -134,7 +135,10 @@ section div .content-card-list ul {
   text-shadow: 1px 1px 4px white;
 }
 
-.content-card-list ul li a:hover {
+.content-card-list ul li a:hover,
+.content-card-list ul li a:focus {
+  border-style: none;
+  border: none;
   color: white;
   text-shadow: 1px 1px 4px black;
 }
