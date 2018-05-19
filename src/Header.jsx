@@ -8,9 +8,9 @@ class Header extends Component {
         <h1>RE:SOURCEs</h1>
         <nav>
           <ul>
-            <li>
-              <NavLink to="/">HOME</NavLink>
-            </li>
+        {/*}    <li>
+              <NavLink to="/">HOME</NavLink> }
+            </li> */}
             <li>
               <NavLink to="/">FE</NavLink>
             </li>
