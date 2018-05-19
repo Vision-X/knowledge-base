@@ -136,7 +136,8 @@ section div .content-card-list ul {
 }
 
 .content-card-list ul li a:hover,
-.content-card-list ul li a:focus {
+.content-card-list ul li a:focus,
+.content-card-list ul li a::selection, {
   border-style: none;
   border: none;
   color: white;
