@@ -13,6 +13,11 @@ class Fe extends Component {
               if (resource.title && resource.link) {
                 return (
                   <li key={resource.id}>
+                    <div class="thumbnail-container">
+                      <div class="thumbnail">
+                        <iframe src={`${resource.link}`} frameborder="0"></iframe>
+                      </div>
+                    </div>
                     <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                     <a href={resource.link} target="_blank">
                       {resource.title}

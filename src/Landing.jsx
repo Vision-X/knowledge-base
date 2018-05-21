@@ -80,7 +80,7 @@ class Landing extends Component {
         </section>
       )
     } else {
-      return (<p>pooped.</p>)
+      return (<section></section>)
     }
   }
 
