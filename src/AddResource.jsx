@@ -7,7 +7,7 @@ class AddResource extends Component {
     this.onSubmit = this.onSubmit.bind(this);
   }
 
-  onSubmit() {
+  onSubmit = () => {
 
   }
 
