@@ -17,8 +17,8 @@ class Be extends Component {
                       <iframe src={`${resource.link}`} frameborder="0"></iframe>
                     </div>
                   </div>
-                  <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                   <a href={resource.link} target="_blank">
+                  <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                     {resource.title}
                   </a>
                 </li>
