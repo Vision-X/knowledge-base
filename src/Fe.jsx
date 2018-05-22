@@ -15,11 +15,11 @@ class Fe extends Component {
                   <li key={resource.id}>
                     <div class="thumbnail-container">
                       <div class="thumbnail">
-                        <iframe src={`${resource.link}`} frameborder="0"></iframe>
+                        <iframe src={`https://api.thumbnail.ws/api/ + ${process.env.API_KEY} + /thumbnail/get?url=${resource.link} + &width=900&delay=5000`} frameborder="0"></iframe>
                       </div>
                     </div>
-                    <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                     <a href={resource.link} target="_blank">
+                    <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
                       {resource.title}
                     </a>
                   </li>

@@ -124,8 +124,8 @@ section div .content-card-list ul {
 }
 
 .content-card-list ul li a {
-  /* outline: 1px solid white; */
-  /* text-shadow: 1px 1px 4px blue; */
+  outline: 1px solid white;
+  text-shadow: 1px 1px 4px blue;
   color: black;
   font-family: monospace;
   text-decoration: none;
