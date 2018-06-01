@@ -7,7 +7,7 @@ class FrontEnd extends Component {
     return (
       <div onClick={onClick}>
         <div className="content-card-title">
-          <h2>Front-End</h2>
+          <h2>Back-End</h2>
         </div>
         <div className="content-card-list">
           <ul>
