@@ -3,13 +3,19 @@ import Fe from './Fe.jsx';
 import Be from './Be.jsx';
 import Servers from './Servers.jsx';
 import Libraries from './Libraries';
+import Category from './Category';
 
 // use react-tabs for tabular page display
 class Landing extends Component {
   constructor() {
     super();
     this.state = {
-
+      categoryData: {
+        be: ["Heroku", "Knex.js", "pSQL", "AWS"],
+        fe: ["HTML", "CSS", "FE Frameworks", "CSS Frameworks", "React", "A-Frame"],
+        servers: ["Node", "Express", "Fetch", "Config/Bundlers"],
+        libraries: ["JavaScript", "React", "Scraping", "Tools/Utils"]
+      }
     }
     this._onClick = this._onClick.bind(this);
   }
@@ -73,7 +79,11 @@ class Landing extends Component {
         this.state.feData) {
       return (
         <section>
-          <Fe data={this.state.feData.item} onClick={this._onClick} />
+          <Fe
+            data={this.state.feData.item}
+            onClick={this._onClick}
+          />
+          <Category categoryData={this.state.categoryData.fe}/>
           <Be data={this.state.beData.item} onClick={this._onClick} />
           <Servers data={this.state.serversData.item} onClick={this._onClick} />
           <Libraries data={this.state.librariesData.item} onClick={this._onClick} />
