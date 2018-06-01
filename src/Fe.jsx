@@ -2,14 +2,15 @@ import React, { Component } from "react";
 
 class Fe extends Component {
   render() {
+    const { data, onClick } = this.props;
     return (
-      <div onClick={this.props.onClick}>
+      <div onClick={onClick}>
         <div className="content-card-title">
           <h2>Front-End</h2>
         </div>
         <div className="content-card-list">
           <ul>
-            {this.props.data.map(resource => {
+            {data.map(resource => {
               if (resource.title && resource.link) {
                 return (
                   <li key={resource.id}>
