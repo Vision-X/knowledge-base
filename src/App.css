@@ -112,7 +112,7 @@ section div .content-card-list ul {
   /* outline: 2px solid lightsteelblue; */
   display: flex;
   align-items: center;
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
   padding: 0.1rem 0;
 }
 
@@ -121,9 +121,7 @@ section div .content-card-list ul {
 }
 
 .content-card-list ul li a {
-  /* outline: 1px solid white; */
-  /* text-shadow: 1px 1px 4px blue; */
-  color: black;
+  color: white;
   font-family: monospace;
   text-decoration: none;
   padding: 10px;
@@ -131,7 +129,7 @@ section div .content-card-list ul {
 }
 
 .content-card-list ul li a:visited {
-  color: black;
+  /* color: black; */
   text-shadow: 1px 1px 4px white;
 }
 
