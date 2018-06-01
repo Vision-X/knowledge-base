@@ -3,7 +3,7 @@ import Fe from './Fe.jsx';
 import Be from './Be.jsx';
 import Servers from './Servers.jsx';
 import Libraries from './Libraries';
-import Category from './Category';
+import FrontEnd from './FrontEnd';
 
 // use react-tabs for tabular page display
 class Landing extends Component {
@@ -79,11 +79,16 @@ class Landing extends Component {
         this.state.feData) {
       return (
         <section>
+          <FrontEnd
+            data={this.state.feData.item}
+            onClick={this._onClick}
+            categoryData={this.state.categoryData.fe}
+
+            />
           <Fe
             data={this.state.feData.item}
             onClick={this._onClick}
           />
-          <Category categoryData={this.state.categoryData.fe}/>
           <Be data={this.state.beData.item} onClick={this._onClick} />
           <Servers data={this.state.serversData.item} onClick={this._onClick} />
           <Libraries data={this.state.librariesData.item} onClick={this._onClick} />
