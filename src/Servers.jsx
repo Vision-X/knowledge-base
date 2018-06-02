@@ -1,28 +1,33 @@
 import React, { Component } from "react";
+import Category from './Category';
 
 class Servers extends Component {
   render() {
+    const { data, categoryData, onClick } = this.props;
     return (
-      <div onClick={this.props.onClick}>
+      <div onClick={onClick}>
         <div className="content-card-title">
           <h2>Servers</h2>
         </div>
         <div className="content-card-list">
           <ul>
-            {this.props.data.map(resource => {
-              return (
-                <li key={resource.id}>
-                  <img src={"https://www.google.com/s2/favicons?domain=" + `${resource.link}`} alt="" />
-                  <a href={resource.link} target="_blank">
-                    {resource.title}
-                  </a>
-                </li>
-              );
-            })}
+            {categoryData.map(category => {
+                return (
+                  <li key={category.indexOf()}>
+                    <Category
+                      category={category}
+                      target="_blank"
+                    >
+                      {category}
+                    </Category>
+                  </li>
+              )
+            })
+          }
           </ul>
         </div>
         <div className="add-btn">
-          <a href="" />
+          <a href="" target="_blank" />
         </div>
       </div>
     );

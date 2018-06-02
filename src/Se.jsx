@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-class Be extends Component {
+class Se extends Component {
   render() {
     const { data, onClick } = this.props;
     return (
       <div onClick={onClick}>
         <div className="content-card-title">
-          <h2>Back-End</h2>
+          <h2>Servers</h2>
         </div>
         <div className="content-card-list">
           <ul>
@@ -30,4 +30,4 @@ class Be extends Component {
   }
 }
 
-export default Be;
+export default Se;

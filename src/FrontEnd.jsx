@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Category from './Category';
 
-class Libraries extends Component {
+class FrontEnd extends Component {
   render() {
     const { data, categoryData, onClick } = this.props;
     return (
       <div onClick={onClick}>
         <div className="content-card-title">
-          <h2>Libraries</h2>
+          <h2>Front-End</h2>
         </div>
         <div className="content-card-list">
           <ul>
@@ -34,4 +34,4 @@ class Libraries extends Component {
   }
 }
 
-export default Libraries;
+export default FrontEnd;
