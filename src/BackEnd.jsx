@@ -8,6 +8,21 @@ class FrontEnd extends Component {
       <div onClick={onClick}>
         <div className="content-card-title">
           <h2>Back-End</h2>
+          <ul>
+            {categoryData.map(category => {
+                return (
+                  <li key={category.indexOf()}>
+                    <Category
+                      category={category}
+                      target="_blank"
+                    >
+                      {category}
+                    </Category>
+                  </li>
+              )
+            })
+          }
+          </ul>
         </div>
         <div className="content-card-list">
           <ul>
