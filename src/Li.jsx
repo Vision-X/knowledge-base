@@ -22,9 +22,9 @@ class Li extends Component {
             })}
           </ul>
         </div>
-        <div className="add-btn">
+      {/*  <div className="add-btn">
           <a href="" />
-        </div>
+        </div> */}
       </div>
     );
   }

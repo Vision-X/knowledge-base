@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import Li from './Li';
 import Be from './Be';
+import Se from './Se';
+import Fe from './Fe';
 
 class SearchBox extends Component {
   render() {
-    const { onClick, data, data2 } = this.props;
+    const { onClick, data1, data2, data3, data4 } = this.props;
     return (
       <article className="search-box" onClick={onClick}>
         <div className="content-card-search">
@@ -22,7 +24,9 @@ class SearchBox extends Component {
         <div className="dizzle">
           <p>Hello this is data</p>
           <Be data={data2} onClick={onClick} />
-          <Li data={data} onClick={onClick} />
+          <Li data={data1} onClick={onClick} />
+          <Fe data={data3} onClick={onClick} />
+          <Se data={data4} onClick={onClick} />
         </div>
       </article>
     )

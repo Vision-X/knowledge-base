@@ -109,7 +109,7 @@ section>div {
   flex-direction: column;
   height: 6rem;
   justify-content: space-around;
-  width: 90%;
+  width: 98%;
 }
 
 .search-and-btn {
@@ -144,15 +144,12 @@ section>div {
 
 .dizzle {
   height: contain;
-  width: 90%;
-  /* background-color: white; */
+  width: 98%;
   z-index: 0;
-  /* opacity: .2; */
   background: rgba(255, 255, 255, 0.3);
 }
 
 .dizzle p {
-  /* z-index: 2; */
   color: black;
 }
 
@@ -200,7 +197,7 @@ section div .content-card-list {
 .content-card-list ul li a,
 .content-card-title ul li a {
   color: white;
-  font-family: monospace;
+  font-size: 0.7rem;
   text-decoration: none;
   padding: 10px;
   text-align: left;

@@ -101,8 +101,10 @@ class Landing extends Component {
         <section>
           <SearchBox
             onClick={this._onClick}
-            data={this.state.librariesData.item}
+            data1={this.state.librariesData.item}
             data2={this.state.beData.item}
+            data3={this.state.feData.item}
+            data4={this.state.serversData.item}
           />
         {/*  <FrontEnd
             data={this.state.feData.items}
