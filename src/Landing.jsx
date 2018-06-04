@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Fe from "./Fe.jsx";
-import Be from "./Be.jsx";
-import Se from "./Se.jsx";
-import Li from "./Li.jsx";
+import SearchBox from "./SearchBox";
+import Fe from "./Fe";
+import Be from "./Be";
+import Se from "./Se";
+import Li from "./Li";
 import Libraries from "./Libraries";
 import FrontEnd from "./FrontEnd";
 import BackEnd from "./BackEnd";
@@ -98,7 +99,14 @@ class Landing extends Component {
     ) {
       return (
         <section>
-          <FrontEnd
+          <SearchBox
+            onClick={this._onClick}
+            data1={this.state.librariesData.item}
+            data2={this.state.beData.item}
+            data3={this.state.feData.item}
+            data4={this.state.serversData.item}
+          />
+        {/*  <FrontEnd
             data={this.state.feData.items}
             onClick={this._onClick}
             categoryData={this.state.categoryData.fe}
@@ -117,14 +125,14 @@ class Landing extends Component {
             data={this.state.librariesData.items}
             onClick={this._onClick}
             categoryData={this.state.categoryData.libraries}
-          />
+          /> */}
           {/*  <Fe
             data={this.state.feData.items}
             onClick={this._onClick}
           />
           <Be data={this.state.beData.item} onClick={this._onClick} />
           <Servers data={this.state.serversData.item} onClick={this._onClick} />
-          <Libraries data={this.state.librariesData.item} onClick={this._onClick} /> */}
+          <Li data={this.state.librariesData.item} onClick={this._onClick} /> */}
         </section>
       );
     } else {

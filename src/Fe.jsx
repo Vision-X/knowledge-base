@@ -5,9 +5,9 @@ class Fe extends Component {
     const { data, onClick } = this.props;
     return (
       <div onClick={onClick}>
-        <div className="content-card-title">
+      {/*  <div className="content-card-title">
           <h2>Front-End</h2>
-        </div>
+        </div> */}
         <div className="content-card-list">
           <ul>
             {data.map(resource => {
@@ -25,9 +25,9 @@ class Fe extends Component {
           }
           </ul>
         </div>
-        <div className="add-btn">
+      {/*  <div className="add-btn">
           <a href="" target="_blank" />
-        </div>
+        </div> */}
       </div>
     );
   }
