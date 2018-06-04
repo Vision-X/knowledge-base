@@ -101,6 +101,8 @@ class Landing extends Component {
         <section>
           <SearchBox
             onClick={this._onClick}
+            data={this.state.librariesData.item}
+            data2={this.state.beData.item}
           />
         {/*  <FrontEnd
             data={this.state.feData.items}
@@ -128,7 +130,7 @@ class Landing extends Component {
           />
           <Be data={this.state.beData.item} onClick={this._onClick} />
           <Servers data={this.state.serversData.item} onClick={this._onClick} />
-          <Libraries data={this.state.librariesData.item} onClick={this._onClick} /> */}
+          <Li data={this.state.librariesData.item} onClick={this._onClick} /> */}
         </section>
       );
     } else {

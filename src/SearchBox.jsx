@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Li from './Li';
+import Be from './Be';
 
 class SearchBox extends Component {
   render() {
-    const { onClick } = this.props;
+    const { onClick, data, data2 } = this.props;
     return (
       <article className="search-box" onClick={onClick}>
         <div className="content-card-search">
@@ -16,6 +18,11 @@ class SearchBox extends Component {
             <button className="topic-btn" type="button">Servers</button>
             <button className="topic-btn" type="button">Libraries</button>
           </div> */}
+        </div>
+        <div className="dizzle">
+          <p>Hello this is data</p>
+          <Be data={data2} onClick={onClick} />
+          <Li data={data} onClick={onClick} />
         </div>
       </article>
     )
